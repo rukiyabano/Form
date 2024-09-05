@@ -1,0 +1,60 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    width: 300px;
+    margin: auto;
+    position: relative; 
+}
+
+input {
+    width: calc(100% - 40px); 
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+input.valid {
+    border-color: green;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-top: 5px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-size: 1em;
+}
+#congratulations {
+    text-align: center;
+    font-size: 1.5em;
+    color: #000000;
+    margin-top: 20px;
+}
+.hidden{
+    display: none;
+}
